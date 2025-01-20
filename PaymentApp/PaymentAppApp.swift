@@ -11,7 +11,8 @@ import SwiftUI
 struct PaymentAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NumpadView()
+                .preferredColorScheme(.light)
         }
     }
 }
